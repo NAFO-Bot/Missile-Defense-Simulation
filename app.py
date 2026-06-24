@@ -122,7 +122,7 @@ with tab2:
 
     missile_costs = {
 
-        "Shahed-136": 0.03,
+       # "Shahed-136": 0.03, For future expansion
         "Fateh-110": 0.50,
         "Zolfaghar": 0.75,
         "Dezful": 1.25,
@@ -141,11 +141,11 @@ with tab2:
 
     with col1:
 
-        missile_counts["Shahed-136"] = st.number_input(
-            "Shahed-136",
-            0,
-            1000,
-            0
+       # missile_counts["Shahed-136"] = st.number_input(  For future expansion. please ignore
+         #   "Shahed-136",
+          #  0,
+           # 1000,
+           # 0
         )
 
         missile_counts["Fateh-110"] = st.number_input(
