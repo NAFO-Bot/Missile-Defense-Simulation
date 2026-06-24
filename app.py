@@ -146,7 +146,7 @@ with tab2:
           #  0,
            # 1000,
            # 0
-        )
+        #)
 
         missile_counts["Fateh-110"] = st.number_input(
             "Fateh-110",
